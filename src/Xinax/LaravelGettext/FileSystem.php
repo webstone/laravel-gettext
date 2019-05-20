@@ -111,7 +111,7 @@ class FileSystem
                 $compiledPath = $compiler->getCompiledPath($compiler->getPath());
 
                 $fs->put(
-                    $compiledPath . '.php',
+                    $compiledPath,
                     $contents
                 );
             }
