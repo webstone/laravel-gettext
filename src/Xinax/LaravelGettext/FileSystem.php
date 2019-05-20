@@ -108,7 +108,7 @@ class FileSystem
 
                 $contents = $compiler->compileString($fs->get($filePath));
 
-                $compiledPath = $compiler->getCompiledPath($compiler->getPath());
+                $compiledPath = $domainDir.'/'.sha1($compiler->getPath()).'.phtml';
 
                 $fs->put(
                     $compiledPath,
