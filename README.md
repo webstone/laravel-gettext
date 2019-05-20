@@ -54,7 +54,7 @@ Optional requirements if you want to use the native php-gettext extension:
 Add the composer repository to your *composer.json* file:
 
 ```json
-    "Belphemur/laravel-gettext": "6.x"
+    "zerospam/laravel-gettext": "^7.1"
 ```
 
 And run composer update. Once it's installed, laravel will discover automatically the provider and load it. (Only for 5.5)
